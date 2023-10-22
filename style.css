@@ -1,0 +1,25 @@
+body {
+    background-color: dimgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar-toggler::after {
+    background-color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.gif {
+    background-size: contain;
+    position: absolute;
+    width: 480px;
+    height: 480px;
+}
