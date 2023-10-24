@@ -1,9 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: dimgray;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    height: 100%;
+    /*
+    position: relative;
+    background-color: white;
+    line-height: 1.5;
+    overflow-x: hidden;
+*/
+}
+
+.content {
+    position: relative;
+    min-height: calc(100vh - 25rem);
+
+}
+
+.cardOMne {
+    background-color: lightslategrey;
+    max-width: 100%;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #333;
+}
+
+.styled-table th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.styled-table td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.styled-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
 }
 
 .navbar-toggler::after {
@@ -19,7 +61,99 @@ body {
 
 .gif {
     background-size: contain;
+    width: 800px;
+    height: 600px;
     position: absolute;
-    width: 480px;
-    height: 480px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.div-log {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: darkgrey;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: #343a40;
+    padding: 50px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 5px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: saddlebrown;
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
+
+
+
+
