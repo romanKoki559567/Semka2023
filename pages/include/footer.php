@@ -4,7 +4,7 @@
             <div class="footer-col">
                 <h4>Spoločnosť</h4>
                 <ul>
-                    <li><a href="#">O nás</a></li>
+                    <li><a href="#">O mne</a></li>
                 </ul>
             </div>
             <div class="footer-col">
