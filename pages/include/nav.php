@@ -24,14 +24,11 @@
             </ul>
 
             <div class="lavaStranaTlacidla">
-                <button class="btn me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    Košik
-                </button>
                 <a class="btn me-2 text-white" href="Login.php"> Login </a>
             </div>
 
             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <input class="form-control me-2" type="search" placeholder="Search"/>
                 <button class="btn brder text-white" type="submit">Search</button>
             </form>
         </div>
